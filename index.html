@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web_Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Courses Infoo</h2>
+    <div id="display_course"></div>
+    <div id="form_div">
+      <h2>Course Tasks</h2>
+      <form>
+        <label for="courseId">Course Id</label>
+        <input type="text" id="courseId" />
+        <label for="taskName">Task Name</label>
+        <input type="text" id="taskName" />
+        <label for="dueDate">Due Date</label>
+        <input type="text" id="dueDate" />
+        <label for="details">Details</label>
+        <input type="text" id="details" />
+        <input type="submit" id="submit" />
+      </form>
+      <div id="search_div">
+        <input type="text" id="search" placeholder="Search Task..." />
+        <button onclick="searchtask()" id="btn">Search</button>
+      </div>
+    </div>
+    <h2>TASK</h2>
+    <div id="display"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
