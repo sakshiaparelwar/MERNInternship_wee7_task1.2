@@ -1,1 +1,3 @@
-# MERNInternship_wee7_task1.2
+# Web Application
+
+*This repo is the task of my week 7th of mern internship*
